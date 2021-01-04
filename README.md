@@ -10,4 +10,4 @@ NOTE:
 - "email@gmail.com" -> this would be the senders email address
 - "examplePassword" -> this would be the senders email password
 - "xxx-xxx-xxxx@vtext.com" -> this would be the recipient's phone number
-  - @vtext if for verizon -> this would need to be changed based on teh recipient's service provider
+  - @vtext is for verizon -> this would need to be changed based on teh recipient's service provider
