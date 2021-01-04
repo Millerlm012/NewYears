@@ -1,4 +1,5 @@
-# sends out some sort of message at the new year
+# sends out text message on new years day when the program is ran new years eve
+
 from datetime import *
 import smtplib
 import time
@@ -24,18 +25,13 @@ server = smtplib.SMTP("smtp.gmail.com", 587)
 
 server.starttls()
 
-server.login('millerlm012@gmail.com', 'Heyitsme#16')
+server.login('example@gmail.com', 'examplePassword')
 
 # Send text message through SMS gateway of destination number
 message = 'Happy New Year! - I was extremely bored so I programmed a bot to send you this text a couple hours ago...'
-email = 'millerlm012@gmail.com'
+email = 'example@gmail.com'
 
-server.sendmail(email, '5633797111@vtext.com', message)
-server.sendmail(email, '5632020704@vtext.com', message)
-server.sendmail(email, '5633796178@vtext.com', message)
-server.sendmail(email, '5635688860@vtext.com', message)
-server.sendmail(email, '5634199425@vtext.com', message)
-server.sendmail(email, '5634196470@email.uscc.net', message)
+server.sendmail(email, 'xxx-xxx-xxxx@vtext.com', message)
 
 server.quit()
 
