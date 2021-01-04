@@ -1,4 +1,4 @@
-# sends out text message on new years day when the program is ran new years eve
+# sends out text message on new years day when the program is ran new years eve before 00:00 / midnight
 
 from datetime import *
 import smtplib
