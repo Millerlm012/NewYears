@@ -6,7 +6,7 @@ Sends out texts to people wishing them a happy new year, when the new year ocurr
 
 
 NOTE:
-- for this script to work, you will need to set up your Gmail account to accept SMTP connection from an outside source. 
+- for this script to work, you will need to set up your Gmail account to accept less secure apps to access your account | ONLY PROCEED IF YOU KNOW WHAT YOU'RE DOING
 - "email@gmail.com" -> this would be the senders email address
 - "examplePassword" -> this would be the senders email password
 - "xxx-xxx-xxxx@vtext.com" -> this would be the recipient's phone number
